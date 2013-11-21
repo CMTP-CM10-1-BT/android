@@ -2,7 +2,7 @@
   <manifest>
 
     <project path="device/hp/tenderloin"
-      name="milaq/android_device_hp_tenderloin"
+      name="CMTP-CM10-1-BT/android_device_hp_tenderloin"
       remote="github"
       revision="cm-10.1"/>
 
@@ -12,7 +12,7 @@
       revision="cm-10.1"/>
 
     <project path="kernel/hp/tenderloin"
-      name="milaq/android_kernel_hp_tenderloin"
+      name="CMTP-CM10-1-BT/android_kernel_hp_tenderloin"
       remote="github"
       revision="cm-10.1"/>
 
@@ -54,7 +54,7 @@
       revision="master"/>
 
     <project path="hardware/atheros/wlan"
-      name="milaq/android_hardware_atheros_wlan"
+      name="CMTP-CM10-1-BT/android_hardware_atheros_wlan"
       remote="github"
       revision="cm-10.1"/>
 
