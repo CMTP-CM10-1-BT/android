@@ -68,4 +68,9 @@
       remote="github"
       revision="cm-10.1_old"/>
 
+    <project path="hardware/libbt-hci"
+      name="CMTP-CM10-1-BT/libbt-hci"
+      remote="github"
+      revision="cm-10.1"/>
+
   </manifest>
