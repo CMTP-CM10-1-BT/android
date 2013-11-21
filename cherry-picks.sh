@@ -77,3 +77,8 @@ pushd system/extras
 wget https://raw.github.com/milaq/android/cm-10.1/patches/26-09-13_ext4_utils-fix-corruption-issue-on-kernels-w-o-ext4.patch
 git am 26-09-13_ext4_utils-fix-corruption-issue-on-kernels-w-o-ext4.patch
 check_clean
+
+# btservice/AdapterState: handle ENABLED_READY in OffState
+pushd packages/apps/Bluetooth
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_packages_apps_Bluetooth refs/changes/80/54380/1 && git cherry-pick FETCH_HEAD
+check_clean
